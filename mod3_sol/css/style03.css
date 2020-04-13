@@ -1,0 +1,141 @@
+body {
+  font-size: 16px;
+  color:#fff;
+  background-color:#fff;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color:#fad657;
+  border-radius: 0;
+  border: 0;
+}
+
+
+.navbar-brand {
+  padding: 25px auto;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Lora', serif;
+  color:#dac6be;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #951C49;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+
+#collapsable-nav{
+  width: 100%;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+/* END HEADER */
+
+/* ****** Main Content ******/ 
+#main-content h2 {
+
+    color: black;
+
+}
+p{
+  color: black;
+}
+
+* {
+  box-sizing: border-box;
+}
+h1 {
+  margin: 30px;
+  text-align: center;
+  font-family:cursive;
+  font-size: 30px;
+
+}
+
+#chicken , #beef , #sushi {
+  
+  border: 1px solid black;
+  background-color:hsla(267, 2%, 78%, 1);
+ 
+  margin: 20px;
+ 
+  position: relative;
+  font-family: cursive;
+  color: black;
+  font-size: 13px;
+
+}
+p{
+  padding: 20px;
+  
+   height: 730px;
+
+}
+#c{
+  background-color:#b86567; 
+}
+#s{
+  background-color: #c78d60; 
+}
+#b{
+  background-color: #657f9a; 
+}
+#d {
+   box-sizing: border-box;
+   position:relative;
+   display: table;
+   width: 100%;
+}
+
+#d h2{
+
+  box-sizing: border-box;
+  position:relative;
+  text-align: center;
+  width: auto;
+ /* float: right;*/
+  padding: 5px 20px;
+  margin: 0px;
+  border: 1px solid black ;
+  font-size: 125%;
+  border-top: 0px;
+  border-right: 0px;
+  /*clear: left;*/
+
+}
+#Back{
+  text-align: center;
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 20px;
+}
+a{
+   text-decoration: none;
+}
